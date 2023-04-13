@@ -1,0 +1,38 @@
+/* GENERAL STYLE */
+body {
+    background-color: black;
+    color: white;
+}
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+/* MAIN STYLE */
+.pswContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pswContainer > h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+#pswCode {
+    cursor: pointer;
+    color: lightgreen;
+}
+
+#pswCode:hover {
+    font-size: larger;
+    color: yellow;
+    transition: 2s;
+}
